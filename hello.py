@@ -37,11 +37,21 @@
 # name = name.title()
 
 # Remove whitesapce from str And capitalize users name
-name = name.strip().title()
+# name = name.strip().title()
 #f special format
 
 
-#shoten the code of line 
-name=input("What is Your Name? ").strip().title()
+# #shoten the code of line 
+# name=input("What is Your Name? ").strip().title()
+# #f special format
+# print(f"Hello, {name}") 
+
+
+
+name = input("What is Your Name? ").strip().title()
+
+#Split user's name into first name and last name
+first, last = name.split(" ")
+
 #f special format
-print(f"Hello, {name}") 
+print(f"Hello, {last}") 
