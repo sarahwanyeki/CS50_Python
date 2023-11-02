@@ -1,5 +1,5 @@
-x = 1
-y = 2
+x = int(input("what's x"))
+y = int(input("what's y"))
 
-z = x+y
-print(z)
+
+print(x + y)
