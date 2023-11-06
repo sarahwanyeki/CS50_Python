@@ -9,3 +9,5 @@ y = float(input("what's y? "))
 
 z = x / y
 print(f"{z:.2f}") # the way you specify using f how many digits you want to use
+
+
