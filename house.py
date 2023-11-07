@@ -46,4 +46,5 @@ match name:
     case "Kare":
         print("Milimani")
     case _: #underscore showing anything that hasn't been defined
+            # uderscore as your catch all
         print("who?")    
