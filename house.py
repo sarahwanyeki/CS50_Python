@@ -21,15 +21,27 @@
 # else:
 #     print("Who?")
 
-#use match as case
+# #use match as case
+# name = input("What's your name? ")
+
+# match name:
+#     case "Sarah":
+#         print("Sobea")
+#     case "Lucy":
+#         print("Sobea")
+#     case "Josphat":
+#         print("Sobea")
+#     case "Kare":
+#         print("Milimani")
+#     case _: #underscore showing anything that hasn't been defined
+#         print("who?")    
+
+
+#shorten the code using pipe
 name = input("What's your name? ")
 
 match name:
-    case "Sarah":
-        print("Sobea")
-    case "Lucy":
-        print("Sobea")
-    case "Josphat":
+    case "Sarah" | "Lucy" | "Josphat":
         print("Sobea")
     case "Kare":
         print("Milimani")
