@@ -34,13 +34,13 @@
 
 #myfunction and pass (silently ignore)
 def main():
-    x = get_int()
+    x = get_int("What's X? ")
     print(f"x is {x}")
 
-def get_int():
+def get_int(prompt):
     while True:
         try:
-            x = int(input("What's X? "))
+            x = int(input(prompt))
             return x # you can avoid using x variable if you aren't goint to use it again
             #return = int(input("What's X? "))       
         except ValueError:
