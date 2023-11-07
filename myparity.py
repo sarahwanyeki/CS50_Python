@@ -1,6 +1,6 @@
 def main():
     x = int(input("What is x? "))
-    if is_parity():
+    if is_parity(x):
         print("Even")
     else:
         print("Odd")
