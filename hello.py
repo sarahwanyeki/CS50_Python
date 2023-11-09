@@ -48,10 +48,25 @@
 
 
 
-name = input("What is Your Name? ").strip().title()
+# name = input("What is Your Name? ").strip().title()
 
-#Split user's name into first name and last name
-first, last = name.split(" ")
+# #Split user's name into first name and last name
+# first, last = name.split(" ")
 
-#f special format
-print(f"Hello, {last}") 
+# #f special format
+# print(f"Hello, {last}") 
+
+
+
+#testing a str function
+
+def main():
+    name = input("What's your name? ")
+    print(hello(name))
+
+def hello(to="world"):
+    return(f"hello, {to}")
+
+
+if __name__ == "__main__":
+    main()
