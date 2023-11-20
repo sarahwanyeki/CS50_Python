@@ -30,22 +30,39 @@
 ############   Dictionar Object with keys and Values ##########
 
 
+# def main():
+
+#     student = get_student()
+#     print(f"{student['name']} from {student['house']}")
+
+
+# def get_student():
+#     student = {}
+#     student["name"] = input("Name: ")
+#     student["house"] = input("House: ")
+#     return student
+
+
+# if __name__ == "__main__": ##### if the name of this file equals name then let us go ahead and call main
+#     main()
+
+
+######### Make changes in a dictionary #######
 def main():
-
     student = get_student()
-    print(f"{student['name']} from {student['house']}")
+    if student ["name"] == "Sarah":
+        student["house"] == "Miti Moja"
+    print (f"{student['name']} from {student['house']}")
 
+    
 
 def get_student():
-    student = {}
-    student["name"] = input("Name: ")
-    student["house"] = input("House: ")
-    return student
+    name = input("Name: ")
+    house = input("House: ")
+    return {"name": name, "house": house}
 
 
-if __name__ == "__main__": ##### if the name of this file equals name then let us go ahead and call main
+
+if __name__ == "__main__":
     main()
-
-
-
 
