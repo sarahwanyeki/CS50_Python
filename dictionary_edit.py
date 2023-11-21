@@ -1,10 +1,9 @@
 def main():
     student = get_student()
-    if student ["name"] == "Sarah":
+    if student["name"] == "Sarah":
         student["house"] = "Sobea"
     print(f"{student['name']} from {student['house']}")
 
-    
 
 def get_student():
     student = {}
@@ -13,7 +12,5 @@ def get_student():
     return student
 
 
-
 if __name__ == "__main__":
     main()
-
